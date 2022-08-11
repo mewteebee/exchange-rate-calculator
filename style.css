@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Signika', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-image: url("img/national-flags-different-countries-world-scattered-heap_113767-1771.jpg");
+}
+
+.currency select {
+    padding: 2px 5px 2px 2px;
+}
+
+.converter-main-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 5px black;
+    font-size: 45px;
+}
+
+p {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    font-size: 25px;
+}
+
+.btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: rgb(255, 10, 10);
+}
+
+.conversion-rate-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rate {
+    color: white;
+    font-size: 12px;
+}
